@@ -55,13 +55,13 @@ order by profit_margin desc
 
 -- What state and city brings in the highest sales and profits ?
 -- states:-
--- top 10
+  -- top 10
 select "state" , sum(sales) sales , sum(profit) profit , round(sum(profit)/sum(sales)*100,2) profit_margin 
 from sales 
 group by 1 
 order by profit desc 
 limit 10 
--- bottom 10
+  -- bottom 10
 select "state" , sum(sales) sales , sum(profit) profit , round(sum(profit)/sum(sales)*100,2) profit_margin 
 from sales 
 group by 1 
@@ -69,17 +69,40 @@ order by profit Asc
 limit 10 
   
 -- Cities :-
+  -- top 10
 select city , sum(sales) sales , sum(profit) profit , round(sum(profit)/sum(sales)*100,2) profit_margin 
 from sales 
 group by 1 
 order by profit desc   
 limit 10 
-
+  -- Bottom 10
 select city , sum(sales) sales , sum(profit) profit , round(sum(profit)/sum(sales)*100,2) profit_margin 
 from sales 
 group by 1 
 order by profit asc
 limit 10 
 
--- The relationship between discount and sales and the total discount per category
+-- The relationship between discount and sales 
+select discount , round(avg(sales),2) sales 
+from sales
+group by 1
+order by 1 
 
+-- The relationship between discount and sales per category , subcategory 
+select category , sum(discounts) discounts
+from sales
+group by 1 
+order by discounts desc 
+
+select category , subcategory , sum(discounts) discounts
+from sales
+group by 1 ,2 
+order by discounts desc 
+
+-- highest category in profits
+select category , sum(sales) sales , sum(profit) profit , round(sum(profit)/sum(sales)*100,2) profit_margin 
+from sales 
+group by 1 
+order by profit desc 
+
+-- hi
