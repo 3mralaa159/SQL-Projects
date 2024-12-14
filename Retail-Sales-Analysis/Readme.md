@@ -4,17 +4,17 @@ The goal of this project was to perform a comprehensive sales performance analys
 
 ## Key Learning Points
 
-- Structured Analysis Approach: Framing business questions to align with dataset capabilities helped us streamline the analysis and focus on meaningful metrics.
+- **Structured Analysis Approach**: Framing business questions to align with dataset capabilities helped us streamline the analysis and focus on meaningful metrics.
 
-- SQL Query Development: Mastering SQL techniques such as aggregation (SUM, AVG, COUNT), grouping (GROUP BY), and filtering (WHERE, HAVING) allowed for efficient data extraction and insight generation.
+- **SQL Query Development**: Mastering SQL techniques such as aggregation (SUM, AVG, COUNT), grouping (GROUP BY), and filtering (WHERE, HAVING) allowed for efficient data extraction and insight generation.
 
-- Sales Performance Insights: Understanding sales trends over time (monthly, quarterly, yearly) provided a foundation for identifying revenue peaks, forecasting, and seasonality effects.
+- **Sales Performance Insights**: Understanding sales trends over time (monthly, quarterly, yearly) provided a foundation for identifying revenue peaks, forecasting, and seasonality effects.
 
-- Customer and Relationship Analytics: Highlighting customer contributions to revenue, identifying underperforming contacts, and suggesting ways to strengthen customer engagement.
+- **Customer and Relationship Analytics**: Highlighting customer contributions to revenue, identifying underperforming contacts, and suggesting ways to strengthen customer engagement.
 
-- Geographical and Logistics Analysis: Gaining insights into top-performing regions and uncovering logistical inefficiencies laid the groundwork for improving supply chain strategies.
+- **Geographical and Logistics Analysis**: Gaining insights into top-performing regions and uncovering logistical inefficiencies laid the groundwork for improving supply chain strategies.
 
-- Data-Driven Recommendations: Learning how to translate observations into actionable recommendations that directly influence operational and strategic goals.
+- **Data-Driven Recommendations**: Learning how to translate observations into actionable recommendations that directly influence operational and strategic goals.
 
 ## Key Observations
 
