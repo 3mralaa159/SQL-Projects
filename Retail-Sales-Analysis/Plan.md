@@ -1,8 +1,8 @@
 ## 1. Sales Metrics and Trends
--What is the total revenue (SALES) generated over time?
--How do monthly, quarterly, and yearly sales trends look?
--Which months or quarters have the highest and lowest sales?
--How has the average order value changed over time?
+- What is the total revenue (SALES) generated over time?
+- How do monthly, quarterly, and yearly sales trends look?
+- Which months or quarters have the highest and lowest sales?
+- How has the average order value changed over time?
 ## 2. Product Performance
 Which PRODUCTLINE contributes most to total sales?
 Which individual PRODUCTCODE generates the highest revenue?
