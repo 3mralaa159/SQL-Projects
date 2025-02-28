@@ -1,5 +1,5 @@
 -- Write a query to get information about products that have not been sold at any stores or are out of stock (quantity = 0), results should return store name and product name.
--- CROSS JOIN: Generates all possible combinations
+-- CROSS JOIN: Generates all possible combinations , no need for on condition , u can apply directly where clause.
 -- Prepare query matching your final result , cross join , filter by the join 
 
 SELECT distinct
