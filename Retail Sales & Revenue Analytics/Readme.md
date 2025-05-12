@@ -17,3 +17,14 @@ This project presents a structured SQL-based analysis framework designed for a l
   - Increase profitability
   - Improve inventory planning
   - Make data-driven decisions
+
+## **B: Customer Behavior & Engagement Analysis**
+- This section focuses on analyzing how customers interact with the retail business. By tracking engagement levels, identifying churn patterns, and understanding behavior (such as visit frequency and time of purchase), we can create personalized campaigns, reduce churn, and improve the overall customer experience.
+
+- Key Themes:
+   - Customer loyalty and retention
+   - Visit frequency and purchase timing
+   - Churn detection and win-back opportunities
+   - Buying behavior segmentation
+   - Personalization and lifecycle analysis
+
